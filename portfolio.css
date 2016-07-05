@@ -1,0 +1,59 @@
+* {
+	font-family: Helvetica;
+}
+
+body {
+	font-size: 150%;
+}
+
+header {
+	background-color: green;
+	border-radius: 15px;
+	color: #E0D3D3;
+} 
+
+h1 {
+	font-family: SignPainter, Arial, sans-serif;
+	text-align: center;
+	font-size: 400%;
+	text-shadow: 2px 1px 1px #222020;
+	margin: 0%;
+}
+
+
+a:hover {
+	opacity: 0.5;
+}
+
+.box {
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+#imposter {
+	z-index: 1;
+	position: absolute;
+	width: 300px;
+	padding: 10px 10px;
+	margin: -20% 0 0 80%;
+	text-align: center;
+}
+
+.projectImage {
+	width: 200px;
+	height: 135px;
+	border-radius: 60px;
+	border: 3px solid green;
+	box-shadow: 3px 3px 5px green;
+}
+
+.outline {
+	background-color: #D1E9D1;
+	border-radius: 8px;
+	border: inset;
+	padding: 3px;
+}
+
